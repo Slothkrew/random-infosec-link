@@ -1,28 +1,11 @@
-== README
+= random-infosec-link
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Bored on a long train ride? Teacher makes you fall asleep? Fear no more, your
+savior is here. This app pulls a random link related to information security
+topics out of a database backend of choice. Enjoy reading!
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+== Dependencies
+To successfully set up and run the application you need the following dependencies installed:
+* Something
+* Something
+* Yada
