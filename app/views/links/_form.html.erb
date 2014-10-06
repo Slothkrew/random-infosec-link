@@ -1,0 +1,23 @@
+<%= form_for(@link) do |f| %>
+  <% if @link.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@link.errors.count, "error") %> prohibited this link from being saved:</h2>
+
+      <ul>
+      <% @link.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <label for="title">Title</label>
+  <input type="text" id="title" name="link[title]">
+
+  <label for="url">URL</label>
+  <input type="text" id="url" name="link[url]">
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
